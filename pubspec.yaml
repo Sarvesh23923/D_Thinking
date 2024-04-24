@@ -34,6 +34,9 @@ flutter:
   assets:
     - assets/register.svg
     - assets/login.svg
+    - assets/confirm.svg
+    - assets/sms.svg
+    - assets/email.svg
       
 
   # An image asset can refer to one or more resolution-specific "variants", see

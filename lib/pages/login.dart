@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers, unused_local_variable, unused_import
 
+import 'package:dt/pages/forget.dart';
 import 'package:dt/pages/reset.dart';
 import 'package:dt/pages/home.dart';
 import 'package:dt/pages/login.dart';
@@ -149,7 +150,7 @@ class _LoginState extends State<Login> {
                 TextButton(onPressed: (){
                   Navigator.push(context, 
                   MaterialPageRoute(                    
-                    builder: (context) => Reset(),
+                    builder: (context) => Fg_Pass(),
                   )
                 );
                 }, 

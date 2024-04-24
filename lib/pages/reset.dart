@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_local_variable, sized_box_for_whitespace, sort_child_properties_last
 
-import 'package:dt/pages/confirm.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -125,9 +124,18 @@ class Reset extends StatelessWidget {
 
                 SizedBox(height: 60),
 
-                SizedBox(
+                Container(
                   width: 267,
                   height: 61,
+                  decoration: BoxDecoration(
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(1),
+                        blurRadius: 2,
+                        offset: Offset(0, 5)
+                      )
+                    ]
+                  ),
                   child: ElevatedButton(onPressed: (){},
                   child: Text(
                     "Confirm",
