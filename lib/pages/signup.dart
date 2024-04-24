@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers
+// ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers, unused_local_variable
 
 import 'package:dt/pages/login.dart';
 import 'package:dt/pages/otp.dart';
@@ -29,10 +29,11 @@ class _SignUpState extends State<SignUp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              SizedBox(height: 20),
+              SizedBox(height: 35),
               Center(
                 child: SvgPicture.asset(
                   "assets/register.svg",
+                  width: screenWidth*0.5
                 ),
               ),
           
@@ -98,10 +99,7 @@ class _SignUpState extends State<SignUp> {
                             ),
                           ),
                         ),
-                      ),
-          
-          
-          
+                      ),          
             
                 Container(
                   width: 130,
@@ -227,7 +225,8 @@ class _SignUpState extends State<SignUp> {
                 SizedBox(height: 20),
           
                 SizedBox(
-                  width: 200,
+                  width: 267,
+                  height: 50,
                   child: ElevatedButton(
                     onPressed: (){
                       Navigator.push(context, 
