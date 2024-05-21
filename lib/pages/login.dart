@@ -33,7 +33,7 @@ class _LoginState extends State<Login> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              SizedBox(height: 20),
+              SizedBox(height: screenHeight * 0.1),
               Center(
                 child: SvgPicture.asset(
                   "assets/login.svg",

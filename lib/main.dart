@@ -1,7 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:dt/Pages/signup.dart';
+import 'package:dt/pages/chart.dart';
+import 'package:dt/pages/login.dart';
 import 'package:dt/pages/otp.dart';
+import 'package:dt/pages/progress.dart';
 import 'package:flutter/material.dart';
 
 void main() {

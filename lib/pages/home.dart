@@ -1,5 +1,7 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:dt/models/nav_menu.dart';
+import 'package:dt/pages/progress.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -34,6 +36,29 @@ class _HomeState extends State<Home> {
         ),
         centerTitle: true,
       ),
+
+      body: Column(
+        children: [
+          Center(
+            child: ElevatedButton(onPressed: (){
+              Navigator.push(context, 
+              MaterialPageRoute(builder: (context) => Progress())
+            );
+            }, child: Text(
+              "Progress"
+            )),
+          ),
+         Center(
+            child: ElevatedButton(onPressed: (){
+              Navigator.push(context, 
+              MaterialPageRoute(builder: (context) => Navbar())
+            );
+            }, child: Text(
+              "Progress"
+            )),
+          ),
+        ]
+      )
     );
   }
 }

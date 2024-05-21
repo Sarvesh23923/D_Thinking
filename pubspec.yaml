@@ -18,6 +18,9 @@ dependencies:
   google_fonts: 6.1.0
   flutter_svg: ^2.0.9
   pinput: ^4.0.0
+  d_chart: ^2.6.9
+  percent_indicator: ^4.2.3
+  rive: ^0.13.2
   
 
 dev_dependencies:
@@ -37,6 +40,13 @@ flutter:
     - assets/confirm.svg
     - assets/sms.svg
     - assets/email.svg
+    - assets/back.svg
+    - assets/Avatar.png
+    - assets/avatar.svg
+    - assets/home.svg
+    - assets/vdo.svg
+    - assets/progress.svg
+    - assets/profile.svg
       
 
   # An image asset can refer to one or more resolution-specific "variants", see
